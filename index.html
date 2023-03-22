@@ -203,14 +203,12 @@
 
                 for (var i = 0; i < hierarchies.length; i++) {
                     if (hierarchies[i].parentId == selectedId) {
-                        //chart.setExpanded(hierarchies[i].id).render();
+                        chart.setExpanded(hierarchies[i].id).render();
                         break;
                     }
                 }
 
                 chart.setCentered(selectedId).render();
-
-                showPeople(selectedId, text);
 
             }
 
@@ -258,44 +256,27 @@
 
             function reset() {
 
-                $("#unities-dropdown").prop("disabled", false);
+                var option = document.getElementById("unities-dropdown");
+                var text = option.options[option.selectedIndex].text;
+                var selectedId = option.value;
+
+                for (var i = 0; i < hierarchies.length; i++) {
+                    if (hierarchies[i].parentId == selectedId) {
+                        chart.setExpanded(hierarchies[i].id, false).render();
+                        break;
+                    }
+                }
+
                 $("#unities-dropdown").prop("disabled", false);
                 $("#unities-dropdown").val(null).trigger("change");
 
                 updateChart(hierarchies);
 
-                chart.compact(true).render().fit();
-
-            }
-
-            function showPeople(id, title) {
-
-                var header = document.getElementById("people-table-header");
-                var table = document.getElementById("people-table-body");
-
-                header.innerHTML = title;
-                table.innerHTML = "";
-
-                if (id in people) {
-
-                    for (var i = 0; i < people[id].length; i++) {
-
-                        var row = table.insertRow(-1);
-                        var indexCell = row.insertCell(0);
-                        var emailCell = row.insertCell(1);
-                        var profileCell = row.insertCell(2);
-
-                        indexCell.innerHTML = (i + 1);
-                        emailCell.innerHTML = people[id][i]["EMAIL"]
-                        profileCell.innerHTML = people[id][i]["PERFIL"];
-
-                    }
-
-                }
-
             }
 
             function updateChart(data) {
+
+                d3.select('#chart').selectAll('svg').remove();
 
                 chart = new d3.OrgChart()
                 .container(".chart-container")
@@ -313,7 +294,7 @@
                             <div style="height: ${d.height}px; background-color: white; border: 1px solid lightgray;">
                                 <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
                                     <div style="padding: 20px; text-align: center;">
-                                        <div style="color: #111672; font-size: 16px; font-weight: bold;" onclick="showPeople('${d.data.id}', '${d.data.title}')"> ${d.data.title} </div>
+                                        <div style="color: #111672; font-size: 16px; font-weight: bold;"> ${d.data.title} </div>
                                         <div style="color: #404040; font-size: 14px; margin-top:10px"> ${d.data.subtitle}</div>
                                     </div>
                                 </div>
@@ -330,7 +311,7 @@
 
             }
 
-            d3.csv("https://mateusnbm.github.io/tmp-organograma/organogram.csv").then((data) => {
+            d3.csv("https://mateusnbm.github.io/tmp-organograma//organogram.csv").then((data) => {
 
                 hierarchies = data;
 
