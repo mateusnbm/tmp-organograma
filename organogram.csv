@@ -1,0 +1,77 @@
+id,parentId,title,subtitle
+132,,Secretaria de Administração,SAMUEL NASCIMENTO
+96,132,Gabinete (Cargos: 9),
+110,132,Superintendencia de Gestão Administrativa (Cargos: 1),CAROLINE CRUZ
+492,110,Diretoria de Gestão Interna - DGIN (Cargos: 1),Lucas Araújo
+124,110,Diretoria de Planejamento e Finanças - DFIN (Cargos: 1),LAERCIO MENEZES
+243,124,Gerência de Planejamento e Orçamento (Cargos: 1),GEILSON OLIVEIRA
+126,110,Diretoria de Infraestrutura e Serviços - DINFRA (Cargos: 2),Marcelo Morais
+251,126,Gerência dos Espaços da Cidadania (Cargos: 0),
+261,251,Coordenação dos Espaços da Cidadania (Cargos: 0),
+249,126,Gerência Técnico de Projetos (Cargos: 0),
+246,126,Gerência de Projetos e Conservação do Patrimônio Estadual (Cargos: 0),
+259,246,Coord. de Monitoramento, Manutenção e Conservação (Cargos: 0),
+258,246,Coordenação de Projetos e Orçamentos de Projetos  (Cargos: 0),
+127,110,Diretoria de Logística e Abastecimento - DLOG (Cargos: 1),ANNDERSON SILVA
+254,127,Gerência de Acompanhamento da Execução de Contratos (Cargos: 2),LETÍCIA NOGUEIRA
+253,127,Gerência de Controle de Gastos Comuns (Cargos: 2),João Melo
+269,253,Coordenação de Telefonia (Cargos: 0),
+268,253,Coordenação de Abastecimento e Manutenção (Cargos: 0),
+252,127,Gerência do Centro Administrativo (Cargos: 1),Wellington Oliveira
+263,252,Coordenação de Manutenção, Conservação e Limpeza (Cargos: 0),
+265,252,Coordenação de Almoxarifado (Cargos: 1),José Filho
+264,252,Coordenação de Frota (Cargos: 1),ROGERIO PRADO
+125,110,Diretoria de Patrimônio Estadual - DPAT (Cargos: 1),ANA SILVA
+247,125,Gerência de Controle Patrimonial de Bens Móveis (Cargos: 1),JAYLLON BRASIL
+345,247,Coordenação de Alienação de Bens Inservíveis (Cargos: 0),
+245,125,Gerência de Controle Patrimonial de Bens Imóveis (Cargos: 0),
+257,245,Coordenação de Regularização de Bens Imóveis (Cargos: 0),
+256,245,Coordenação de Gestão de Patrimônio (Cargos: 0),
+117,132,Núcleo Estratégico de Tecnologia e Governo Digital (Cargos: 1),UBALDO JUNIOR
+276,117,Gerência de Engenharia de Software (Cargos: 2),MARCOS WAQUIM
+277,117,Gerência de Infraestrutura Tecnológca (Cargos: 0),
+282,277,Coordenação de Suporte Tecnico (Cargos: 1),MAWRO KLINGER
+281,277,Coordenação de Infraestrutura (Cargos: 0),
+278,117,Gerência de Interoperabilidade de Soluções (Cargos: 1),Jônatas Cunha
+280,278,Coordenação de Ciência de Dados (Cargos: 1),Mateus Magalhaes
+279,278,Coordenação de Ponto Eletrônico (Cargos: 1),JERRINALDO MARTINS
+118,132,Superintendência de Licitação e Contratos (Cargos: 1),JACYLENNE FORTES
+208,118,Diretoria de Contratos (Cargos: 1),Bruno Moraes
+219,208,Gerência de Controle de Contratos (Cargos: 0),
+218,208,Gerência de Controle de Atas (Cargos: 0),
+202,118,Diretoria de Planejamento (Cargos: 1),JESSICA CARVALHO
+490,202,Gerência de Pesquisa de Preços de Compras Públicas (Cargos: 1),
+210,202,Gerência de Instrução de Procedimento Licitatório (Cargos: 0),
+205,118,Diretoria de Licitações (Cargos: 1),Leda Luz
+214,205,Gerência de Pregões (Cargos: 0),
+213,205,Gerência Operacional de Licitações (Cargos: 0),
+215,213,Comissões de Licitação (Cargos: 0),
+216,215,Parcerias e Concessões (Cargos: 0),
+217,215,BIRD (Cargos: 0),
+119,132,Superintendência de Parcerias e Concessões (Cargos: 1),MONIQUE URRA
+272,119,Diretoria de Monitoramento (Cargos: 2),EMMANUEL SARAIVA
+271,119,Diretoria de Estruturação (Cargos: 3),
+120,132,Superintendência de Gestão de Pessoas (Cargos: 1),GARCIAS JUNIOR
+223,120,Diretoria de Atenção ao Servidor Público (Cargos: 2),ALINE COELHO
+230,223,Gerência de Atenção e Promoção à Saúde do Servidor (Cargos: 0),
+231,223,Gerência de Perícia Médica		 (Cargos: 0),
+222,120,Diretoria de Pagamento de Pessoal (Cargos: 1),GEISA FERREIRA
+228,222,Gerência de Monitoramento de Folha de Pagamento (Cargos: 0),
+238,228,Coordenação de Aposentadoria e Pensão (Cargos: 0),
+237,228,Coordenação de Folha de Pagamento  (Cargos: 0),
+229,222,Gerência de Operacionalização da Folha de Pagamento (Cargos: 0),
+221,120,Diretoria de Desenvolvimento de Pessoal (Cargos: 2),ITAMARA MATOS
+227,221,Comissão Especial de Enquadramento (Cargos: 0),
+224,221,Gerência Técnica de Análise de Carreiras (Cargos: 0),
+232,224,Coordenação de Planos de Cargos e Salários (Cargos: 0),
+225,221,Gerência de Benefícios e Cadastro (Cargos: 0),
+234,225,Coordenação de Benefícios (Cargos: 0),
+233,225,Coordenação de Cadastro (Cargos: 0),
+226,221,Gerência de Recursos Humanos (Cargos: 1),KELSON BASTOS
+236,226,Coordenação de Provimentos (Cargos: 0),
+235,226,Coordenação de Planejamento de Recursos Humanos (Cargos: 0),
+121,132,Escola de Governo (Cargos: 1),CARLOS JUNIOR
+349,121,Gerência Acadêmica (Cargos: 0),
+351,349,Coordenação de Formação de Gestores (Cargos: 0),
+350,121,Gerência Operacional (Cargos: 0),
+122,132,Núcleo Estratégico de Inovação em Serviços Públicos (Cargos: 1),FRANCISCO FILHO
